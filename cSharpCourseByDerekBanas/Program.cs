@@ -69,11 +69,40 @@ namespace cSharpCourseByDerekBanas
             //Console.WriteLine("Replacing 'random' with 'new random' in string: {0}", randString.Replace("random", "new random"));
             //Console.WriteLine("Compare Two to Three: {0}", String.Compare("Two", "Three", StringComparison.OrdinalIgnoreCase));
 
-            // Start from 36:00
+            //Console.WriteLine("Comparing Z and z: {0}", String.Equals("Z", "z", StringComparison.OrdinalIgnoreCase));
+            //Console.WriteLine("Pad left: {0}", randString.PadLeft(20));
+            //Console.WriteLine("Pad right: {0}", randString.PadRight(20, ';'));
+            //Console.WriteLine("Trim whitespace: {0}", randString.Trim());
+            //Console.WriteLine("Uppercase: {0}", randString.ToUpper());
+            //Console.WriteLine("Lowercase: {0}", randString.ToLower());
+            //string newString = String.Format("A {0} fox {1} over the {2} brown dog.", "quick", "jumped", "lazy");
+            //Console.Write("Console.write and special new line character" + "\n");
+            //Console.Write(newString + "\n");
 
+            // Escape characters: \' \" \\ \t \a \n ...
+            //Console.WriteLine(@"Escaping escape characters \n \t \\");
 
+            // Arrays:
+            //string[] youTubeLikes = new string[3];
+            //youTubeLikes[0] = "5.5K";
 
+            //Console.WriteLine("First index of youTubeLikes: {0}", youTubeLikes[0]);
 
+            //int[] firstTenDigits = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //var weekends = new[] { "Friday", "Saturday", "Sunday" };
+            //object[] random = { "Sunday", 1, "Funday", 0.45 };
+
+            //Console.WriteLine("Array type of random: {0}", random.GetType());
+            //Console.WriteLine("Array length of random: {0}", random.Length);
+
+            //for ( int i = 0; i < random.Length; i++ )
+            //{
+            //    Console.WriteLine("At index {0} of random array, the value is: {1}", i, random[i]);
+            //}
+
+            // Multi-dimensional arrays:
+
+            // start from 52:30
 
 
 
