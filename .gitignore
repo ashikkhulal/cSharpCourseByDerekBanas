@@ -476,8 +476,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Ignore everything except Program.cs, gitignore and readme
+# Ignore everything except Program.cs, gitignore and readme file
 *
 !.gitignore
-!Course_Lesson/Course_Lesson/Course_Lesson/Program.cs
+!**/Program.cs
 README.md
