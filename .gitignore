@@ -479,5 +479,5 @@ $RECYCLE.BIN/
 # Ignore everything except Program.cs, gitignore and readme file
 *
 !.gitignore
-!**/Program.cs
+!./Course_Lesson/Course_Lesson/Course_Lesson/Program.cs
 README.md
