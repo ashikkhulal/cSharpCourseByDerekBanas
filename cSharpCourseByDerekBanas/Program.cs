@@ -102,12 +102,67 @@ namespace cSharpCourseByDerekBanas
 
             // Multi-dimensional arrays:
 
-            // start from 52:30
+            //string[,] multiDimentionalArray = new string[2,2]{ { "Ram", "Ramayan" }, { "Lakshman", "Ramayan" } };
 
+            //Console.WriteLine("Array index 1 and row 0 is: {0}", multiDimentionalArray[1,0]);
+
+            //for (int i = 0; i < multiDimentionalArray.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < multiDimentionalArray.GetLength(0); j++)
+            //    {
+            //        Console.WriteLine("Array index {0} and row {1} is: {2} ", i, j, multiDimentionalArray[i,j]);
+            //    }
+            //}
+
+            // Methods to print elements of an array:
+
+            //string[] ramayanCharacters = { "Ram", "Sita", "Lakshman", "Hanuman" };
+
+            //PrintArrays(ramayanCharacters, "Print completed!");
+
+            //Array.Sort(ramayanCharacters);
+
+            //Array.Reverse(ramayanCharacters);
+
+            //Console.WriteLine("Index of Lakshman: {0}", Array.IndexOf(ramayanCharacters, 1));
+
+            // if else condition
+
+            //int age = 15;
+
+            //if (age < 12)
+            //{
+            //    Console.WriteLine("You are a child.");
+            //}
+            //else if (age >= 12 && age < 18)
+            //{
+            //    Console.WriteLine("You are a teenager.");
+            //}
+            //else if (age >= 18 && age < 65)
+            //{
+            //    Console.WriteLine("You are an adult.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You are an old person");
+            //}
+
+            // Continue from 1:12
 
 
 
 
         }
+
+        //static void PrintArrays(string[] array, string message)
+        //{
+        //    int i = 0;
+        //    foreach (string k in array)
+        //    {
+        //        Console.WriteLine("Printing element at index {0}: {1}", i, k);
+        //        i++;
+        //    }
+        //    Console.WriteLine(message);
+        //}
     }
 }
