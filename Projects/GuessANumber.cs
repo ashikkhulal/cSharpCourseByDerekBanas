@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace GuessANumber
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			Random random = new Random();
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random random = new Random();
             int secretNumber = random.Next(1, 11);
             int guess = 0;
             int lives = 1;
@@ -37,7 +37,7 @@ namespace GuessANumber
                 }
 
             } while (guess != secretNumber);
-			
-		}
-	}
+            
+        }
+    }
 }

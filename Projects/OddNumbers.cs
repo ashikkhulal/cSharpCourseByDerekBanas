@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace OddNumbers
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			int i = 1;
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 1;
             Console.WriteLine("Odd numbers less than 100 are:");
             while (i <= 100)
             {
@@ -20,6 +20,6 @@ namespace OddNumbers
                 }
                 i++;
             }
-		}
-	}
+        }
+    }
 }

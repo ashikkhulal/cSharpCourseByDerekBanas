@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace EvenNumbers
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			int i = 1;
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 1;
 
             Console.WriteLine("Even numbers less than 100 (skips 100) are:");
 
@@ -29,7 +29,7 @@ namespace EvenNumbers
                 Console.WriteLine(i);
                 i++;
             }
-			
-		}
-	}
+            
+        }
+    }
 }
