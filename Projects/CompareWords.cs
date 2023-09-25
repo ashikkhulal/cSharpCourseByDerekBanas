@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CompareWords
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			Console.Write("Enter two words and I will compare them for you.\n");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter two words and I will compare them for you.\n");
             Console.Write("Enter first word: ");
             string word1 = Console.ReadLine();
             Console.Write("Enter second word: ");
@@ -30,8 +30,8 @@ namespace CompareWords
                 Console.WriteLine("\nThey are different.");
                 Console.ForegroundColor = ConsoleColor.Black;
             }
-		}
-	
-	}
-	
+        }
+    
+    }
+    
 }
