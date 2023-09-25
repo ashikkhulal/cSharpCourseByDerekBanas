@@ -179,7 +179,18 @@ namespace cSharpCourseByDerekBanas
             //}
 
 
-            // continue from 1:18
+            // While loop
+
+            // Do while loop:
+
+            // Exception Handling:
+
+            //Divide(0, 0);
+
+            // Continue from 1:31
+
+
+
 
         }
 
@@ -192,6 +203,30 @@ namespace cSharpCourseByDerekBanas
         //        i++;
         //    }
         //    Console.WriteLine(message);
+        //}
+
+        //private static void Divide(double firstNumber, double secondNumber)
+        //{
+        //    try
+        //    {
+        //        double result = firstNumber / secondNumber;
+        //        Console.WriteLine("Answer is {0}", result);
+        //    }
+        //    catch (DivideByZeroException ex)
+        //    {
+        //        Console.WriteLine("Attempting to divide by zero.");
+        //        Console.WriteLine(ex.GetType().Name);
+        //        Console.WriteLine(ex.Message);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.GetType().Name);
+        //        Console.WriteLine(ex.Message);
+        //    }
+        //    finally
+        //    {
+        //        Console.WriteLine("Cleaning up / Closing DB Connections (Always executes)");
+        //    }
         //}
 
 
