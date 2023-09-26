@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Text;
 
 namespace cSharpCourseByDerekBanas
 {
@@ -34,7 +36,8 @@ namespace cSharpCourseByDerekBanas
             Console.WriteLine("Smallest float: {0}", float.MinValue);
             */
 
-            // Explicit conversion (may lose data)
+            // ----- Explicit conversion -----
+            // (may lose data)
 
             //bool boolFromStr = bool.Parse("true");
             //int intFromStr = int.Parse("100");
@@ -47,7 +50,7 @@ namespace cSharpCourseByDerekBanas
             //Console.WriteLine($"Integer: {(int)dblNum}");
 
 
-            //// Implicit conversion
+            // ----- Implicit conversion -----
 
             //int intNum = 10;
             //long longNum = intNum;
@@ -82,7 +85,7 @@ namespace cSharpCourseByDerekBanas
             // Escape characters: \' \" \\ \t \a \n ...
             //Console.WriteLine(@"Escaping escape characters \n \t \\");
 
-            // Arrays:
+            // ----- Arrays -----
             //string[] youTubeLikes = new string[3];
             //youTubeLikes[0] = "5.5K";
 
@@ -100,7 +103,7 @@ namespace cSharpCourseByDerekBanas
             //    Console.WriteLine("At index {0} of random array, the value is: {1}", i, random[i]);
             //}
 
-            // Multi-dimensional arrays:
+            // ----- Multi-dimensional arrays -----
 
             //string[,] multiDimentionalArray = new string[2,2]{ { "Ram", "Ramayan" }, { "Lakshman", "Ramayan" } };
 
@@ -126,7 +129,7 @@ namespace cSharpCourseByDerekBanas
 
             //Console.WriteLine("Index of Lakshman: {0}", Array.IndexOf(ramayanCharacters, 1));
 
-            // if else condition
+            // ----- If else condition -----
 
             //int age = 15;
 
@@ -147,8 +150,6 @@ namespace cSharpCourseByDerekBanas
             //    Console.WriteLine("You are an old person");
             //}
 
-
-
             //bool isLegalToDrink = age >= 21 ? true : false;
             //Console.WriteLine(isLegalToDrink);
 
@@ -157,7 +158,7 @@ namespace cSharpCourseByDerekBanas
 
             //Console.WriteLine(favoriteSuperHero);
 
-            // Switch statements
+            // ----- Switch statements -----
             //int age = 20;
 
             //switch (age)
@@ -179,18 +180,52 @@ namespace cSharpCourseByDerekBanas
             //}
 
 
-            // While loop
+            // ----- While loop -----
 
-            // Do while loop:
+            // ----- Do while loop -----
 
-            // Exception Handling:
+            // ----- Exception handling -----
 
             //Divide(0, 0);
 
-            // Continue from 1:31
+            // ----- String builders -----
+
+            //StringBuilder stringBuilder = new StringBuilder("Hello World!");
+            //StringBuilder stringBuilder2 = new StringBuilder("Bye World!", 256);
+
+            //Console.WriteLine("Default capacity: {0}", stringBuilder.Capacity);
+            //Console.WriteLine("Capacity: {0}", stringBuilder2.Capacity);
+            //Console.WriteLine("Length: {0}", stringBuilder2.Length);
+            //stringBuilder2.AppendLine("\nAdding more info...");
+            //CultureInfo enUS = CultureInfo.CreateSpecificCulture("en-US");
+            //string name = "John Doe";
+            //stringBuilder2.AppendFormat(enUS, "Name: {0}", name);
+            //Console.WriteLine(stringBuilder2.ToString());
+            //stringBuilder2.Replace("John", "Ram");
+            //Console.WriteLine(stringBuilder2.ToString());
+            //stringBuilder2.Clear();
+            //stringBuilder2.Append("Adding info in new canvas...");
+            //stringBuilder.Replace("Hello World!", "Adding info in new canvas...");
+            //Console.WriteLine(stringBuilder.Equals(stringBuilder2));
+            //stringBuilder2.Insert(28, "\nYup, that's a positive!");
+            //Console.WriteLine(stringBuilder.ToString());
+            //Console.WriteLine(stringBuilder2.ToString());
 
 
+            // ----- Methods / Functions -----
+            // <access specifiers> <return-types> <method name>(Parameters)
+            // { <body> }
 
+            // Access specifiers determine whether the function can be called from another class:
+            // Public: can be accessed from another class
+            // Private: can't be accessed from another class
+            // Protected: can't be accessed by class but can be accessed by derived classes
+
+            //Greet();
+            Console.WriteLine(Sum(5, 5));
+            Console.WriteLine(Sum(5, 15));
+
+            // Continue from 1:45:30
 
         }
 
@@ -229,6 +264,17 @@ namespace cSharpCourseByDerekBanas
         //    }
         //}
 
+        //private static void Greet()
+        //{
+        //    Console.Write("Enter your name: ");
+        //    string name = Console.ReadLine();
+        //    Console.WriteLine("Hello, {0}! Nice to meet you.", name);
+        //}
+
+        static double Sum(double x, double y)
+        {
+            return x + y;
+        }
 
     }
 }
