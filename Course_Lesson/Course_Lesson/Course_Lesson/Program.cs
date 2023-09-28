@@ -222,10 +222,21 @@ namespace cSharpCourseByDerekBanas
             // Protected: can't be accessed by class but can be accessed by derived classes
 
             //Greet();
-            Console.WriteLine(Sum(5, 5));
-            Console.WriteLine(Sum(5, 15));
+            //Console.WriteLine(Sum(5, 5));
+            //Console.WriteLine(Sum(5, 15));
 
-            // Continue from 1:45:30
+            // Thinking like a programmer:
+            // Algorithms:
+            // focus first on understanding problem before coding and write those algorithms in comments
+
+            // Comments: are code to understand the why
+            // Input: ask question and get answer from user
+            // Output: show something for user
+            // New variables: name, type, initial value
+            // Data-type conversion: converting one type to another
+            // If condition
+            // For loops
+            // While loops
 
         }
 
@@ -271,10 +282,10 @@ namespace cSharpCourseByDerekBanas
         //    Console.WriteLine("Hello, {0}! Nice to meet you.", name);
         //}
 
-        static double Sum(double x, double y)
-        {
-            return x + y;
-        }
+        //static double Sum(double x, double y)
+        //{
+        //    return x + y;
+        //}
 
     }
 }
